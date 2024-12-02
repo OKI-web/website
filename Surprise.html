@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Surprise</title>
+</head>
+<body>
+    <header>
+        <a href="Home.html" class="logo">Henry</a>
+        <nav>
+            <a href="Home.html" class="active"> Home</a>
+            <a href="Index.html" >Profile</a>
+            <a href="Surprise.html" >Surprise</a>
+        </nav>
+    </header>
+
+    <section class="video-container">
+        <video autoplay loop muted>
+            <source src="Princess.mp4" type="video/mp4">
+        </video>
+        
+        <audio autoplay loop>
+            <source src="Princess.mp3" type="audio/mp3">
+        </audio>
+    </section>
+
+    <style>
+        body {
+            margin: 0;
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .video-container {
+            margin-top: 50px;
+        }
+
+        video {
+            width: 80%;
+            height: auto;
+            border: 3px solid red;
+            border-radius: 10px;
+        }
+        audio {
+            display: none;
+        }
+    </style>
+</body>
+</html>
